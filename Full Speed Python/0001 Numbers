@@ -1,0 +1,60 @@
+Numbers
+In this chapter, we will work with the most basic data type: numbers.
+
+We'll cover the following
+
+Numbers
+Print the Data Type
+Basic Operations on Numbers
+Numbers#
+Start your Python REPL and write the following:
+
+Print the Data Type#
+To print the number data type, use the built-in function type(number):
+
+12345
+a = 2
+print(type(a)) #print the data type of variable a
+
+b = 2.5
+print(type(b)) # prints data type of variable b
+
+Output
+
+<type 'int'>
+<type 'float'>
+
+Basically, you are declaring two variables (named a and b) which will hold some numbers; variable a is an integer number <type 'int'> and variable b is a real
+number <type 'float'>.
+
+Basic Operations on Numbers#
+We can now use our variables or any other numbers to do some calculations:
+
+a=2
+b=2.5
+print(a + b)  
+print ((a + b) * 2)
+print(2 + 2 + 4 - 2/3)
+
+Output
+4.5
+9.0
+8
+
+Now that the basics of the numbers are clear, let’s check your knowledge in the upcoming exercises before moving on to the 'Strings’​ lesson.
+
+A brief description of the previous operations’ functions is given below.
+
+/   
+// 
+%
+**
+Division
+Floor Division
+Modulus
+Exponentiation
+Divides the number on the left with the number on the right
+Divides and returns the integer value of the quotient
+Divides and returns the value of the remainder
+Raises the first number to the power of the second
+
